@@ -1,0 +1,13 @@
+[build]
+  # الأمر اللي يبني مشروعك
+  command = "npm run build"
+
+  # المجلد اللي فيه ملفات HTML وJS النهائية
+  publish = "dist"
+
+  # نسخة Node اللي يحتاجها Vite
+  node_version = "20"
+
+# لو عندك Netlify Functions
+[functions]
+  directory = "netlify/functions"
